@@ -11,7 +11,7 @@ body {
   font-family: 'Space Grotesk', sans-serif;
   display: flex;
   flex-direction: column;
-  height: 50%;
+  
 }
 
 /******************************************
@@ -28,8 +28,7 @@ img{
   
   display: flex;
   justify-content: center;
-  margin-top: 9%;
-  margin-bottom: 3%;
+  padding: 5%;
   
  
 }
@@ -64,3 +63,29 @@ h2 {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 650px) {
+  body {
+  
+    margin: 0, 10%;
+  }
+
+  .top {
+  
+    display: flex;
+    flex-direction: column-reverse;
+    
+    padding: 5%;
+    justify-content: center;
+    
+   
+  }
+  .top > section {
+    
+    
+    display: inline-block;
+    text-align: center;
+    
+  }
+}
