@@ -67,7 +67,8 @@ h2 {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 650px) {
   body {
-  
+    font-size: 2.5em;
+    color: blue;
     margin: 0, 10%;
   }
 
@@ -82,7 +83,6 @@ h2 {
    
   }
   .top > section {
-    
     
     display: inline-block;
     text-align: center;
