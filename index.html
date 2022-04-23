@@ -1,44 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-    	<meta charset="utf-8">
-    	<meta name="description" content="This is where your description goes">
-    	<meta name="keywords" content="one, two, three">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
-
-
-
-		<title>Title in the tab</title>
-
-		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/normalize.css">
+<html>
+    <head>
+        <!--META information-->
+        <meta charset="UTF-8">
+        <meta name="description" content="Image Search App">
+        <meta name="keywords" content="HTML,CSS,JavaScript, images, API">
+        <meta name="author" content="Neha Soni">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--End of META information-->
+        <title>Image Search App</title>
+        <link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
-		<section class="top">
-			<section>
-				<h1>What kind of cocktail would you like to make?</h1>
+        
+    </head>
+    <body>
+		<div class="container">
+			<h1>New Mobile Wallpapers</h1>
 			
-
-				<h2></h2>
-				
-				<h3>We'll grab the instructions!</h3>
-
-				<input type="text" name="" value="">
-				<button type="button" name="button">Get Cocktail</button>
-
-			</section>
-			<section id="picture">
-				<img src="img/bartender.png" alt="placeholder">
-			</section>
-		</section>
-		<section class="instructions">
-			<section>
-				<p>We'll let you know what you need for this drink!</p>
-			</section>
-		</section>
+				<!--Input box to take input from User-->
+				<input type="text" class="input" placeholder="Search for Images🔎"/>
+				<button class="search_btn">Search</button>
+				<!--Images to be displayed here-->
+				<img src="#" alt="your image">     
+				<h2></h2>  
+				<p class="photographerUrl"></p>     
+				<p class="ulrForImage"></p>
+			
+		</div>
+        <!--LINK CUSTOM JS FILE-->
 		<script type="text/javascript" src="js/main.js"></script>
-	</body>
+    </body>
 </html>
