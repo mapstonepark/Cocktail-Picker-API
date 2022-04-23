@@ -1,5 +1,3 @@
-# Cocktail Maker API
- 
-**work in progress last update 4/19/22**
+# Pexel Mobile Wallpaper API 
 
-My first API project where users can input the alcohol of their choice and get a recipe, image and shopping list for several drink options
+Project where users can get a fresh wallpaper using Pexel's API
